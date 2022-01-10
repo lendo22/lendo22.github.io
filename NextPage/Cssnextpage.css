@@ -3,7 +3,6 @@ body{
 	width:100%;
 	height: 100%;
     background-image: url("Images/bg1.jpg");
-	padding-top :120px;	
 }
 
 	
@@ -68,7 +67,7 @@ input{
 
 .search-box {
 	margin-right:50px;
-	position: relative;/*??nh v? tr? tuy?t ??i cho c?c th?nh ph?n, kh?ng ?nh h??ng v? tr? ban ??u hay c?c th?nh ph?n kh?c.*/
+	position: relative;
 }
 .search-text {
 	width: 250px;
@@ -110,122 +109,6 @@ input{
 	color:#FF8C00;
 }
 
-/*---Poster-----*/
-
-.heropage{
-    position: absolute;
-    color:white;
-}
-.inside-heropage{
-    line-height:2;
-	margin-top: 200px;
-	padding-left:10px;
-}
-.inside-heropage h1{
-    font-size: 30px;
-}
-.inside-heropage p{
-    font-size: 17px;
-}
-span{
-    color: teal;
-    font-weight: bold;
-	font-size:20px;
-}
-.line1{
-	height: 2px;
-	background-color:teal;
-	width: 15%;
-	margin-left: 0px;
-	margin-top: 0px;
-	position: absolute;
-}
-
-.btn1{
-    margin-top: 30px;
-}
-.btn1 a{
-    background-color: teal;
-    color: white;	
-    padding: 10px 25px;
-    text-decoration: none;
-    border-radius: 30px;
-}
-.btn1 a:hover{
-    background: #FF8C00;
-    color: white;
-	
-}
-
-.btn1 i{
-    color:white;
-    padding: 0px 10px;
-}
-.btn1 i:hover{
-    color: black;
-}
-.btn1 button{
-	background:none;
-	border:none;
-	color:white;
-}
-.poster-image{
-    margin-top: 100px;
-}
-.poster-image img{
-    height:350px;
-	width:100%;
-	border-radius: 10px;
-	box-shadow: 0px 0px 1px 1px #999999;
-	cursor:pointer;
-}
-
-
-/*----------The loai------------*/
-
-.category { margin-bottom: 60px; }
-
-
-
-.category-card {
-  position: relative;
-  height: 150px;
-  border-radius: 20px;
-  overflow: hidden;/*Khi chi?u cao c?a box kh?ng ?? ch?a text, th? text b? tr?n s? ???c d?u ?i.*/
-  cursor: pointer;
-  margin-bottom:20px;
-}
-
-.category-card::after {
-  position: absolute;
-}
-
-
-.category-card .name{
-  position: absolute;
-  bottom: 20px;
-  color: White;
-  z-index: 20;
-}
-
-.category-card .name{	
-    left: 20px;
-    font-size: 20px;
-}
-.category-card img:hover{
-	opacity:0.5;
-}
-	
-.name a{
-	text-decoration:none;
-	color:white;
-}
-.category-card:hover .name a{ 
-	color: #FF8c00;
-}
-
-
-/*-------Muc phim----*/
 .panel {
 	margin:10px;
 	position: relative;	
